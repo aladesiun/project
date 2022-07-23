@@ -1,0 +1,235 @@
+*,html{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.mx-width{
+    max-width: 1600px;
+    margin: auto;
+}
+.nav-dropdown{
+    height: 160px!important;
+}
+
+
+.phone_bg{
+   background-image: url('../img/Phones_screens-removebg-preview.png');
+   background-repeat: no-repeat;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   right: 120px;
+   /* z-index: 10; */
+   background-position: right;
+   /* background-size:85%; */
+   background-size: 601px;
+   image-rendering: pixelated;
+}
+.phone_bg_2{
+    background-image: url('../img/Phones_screens__1.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    right: 45px;
+    top: 186px;
+    background-position: right;
+    /* background-size:85%; */
+    background-size: 601px;
+    image-rendering:  pixelated;
+}
+.phone_wrap{
+    padding-top: 120px;
+    height: 680px;
+}
+.plt_one{
+    max-width:704px;
+}
+.plt_wrap{
+    max-width:504px;
+}
+.img_r{
+    image-rendering:  pixelated;
+}
+.s_phones{
+   background-image: url('../img/Second-Phones-screens.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: 100%;
+   height: 100%;
+   background-position: center;
+   image-rendering:  pixelated;
+}
+.sport_bg{
+   background-image: url('../img/sport-2.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+   image-rendering:  pixelated;
+   background-position: bottom;
+   position: relative;
+}
+.feature_btn{
+    box-shadow: 0px 2px 25px 3px rgb(0 0 0 / 23%);
+}
+.section_two{
+    background: linear-gradient(180deg, #ECECEC 0%, rgba(236, 236, 236, 0) 100%);
+}
+.feature_box{
+   width: 380px;
+}
+.features_scroll::-webkit-scrollbar{
+    display: none;
+}
+.feature-bg{
+    background: #fff;
+}
+.feature-bg:hover{      
+    background: rgba(1, 218, 76, 0.945);
+}
+.feature-bg:hover .learn_btn{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+}
+.feature-bg:hover .gc{
+    display: none;
+}
+.learn_btn:hover{
+   background: white!important;
+   color: rgba(0,0,0,0.8)!important;
+}
+.feature-bg:hover .f_txt{
+    color: #fff;
+}
+.pl_box{
+    max-width:1180px;
+}
+.blur-border{
+    filter: blur(2px);
+}
+.platforn_btn[aria-selected="true"]{
+    background: rgba(1, 218, 76, 0.945);
+}
+.platforn_btn[aria-selected="true"] .gc{
+    display: none;
+}
+.platforn_btn[aria-selected="true"] .f_txt{
+    color: #fff;
+}
+.platforn_btn[aria-selected="true"] .learn_btn{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+}
+.modal-dialog{
+    max-width: 100%!important;
+}
+.policy-bar::-webkit-scrollbar{
+   width: 9px;
+}
+.policy-bar::-webkit-scrollbar-track {
+   background: #D9D9D9;
+}
+.policy-bar::-webkit-scrollbar-thumb {
+    background: #605f5f;
+    border-radius: 20px; 
+ }
+ .sp_row:hover .sp_img{
+    filter: saturate(006);
+ }
+@media only screen and (max-width: 1320px) {
+    .phone_bg{
+        background-size: 501px;
+        right: 40px;
+    }
+    .phone_wrap{
+        padding-top: 116px;
+        height: 600px;
+    }
+    .phone_bg_2{
+        top: 172px;
+    }
+}
+@media only screen and (max-width: 1244px) {
+   .feature_box{
+    width: 300px;
+   }
+   .pl_box{
+    width: 936px!important;
+    margin: auto;
+   }
+}
+@media only screen and (max-width: 1202px) {
+    .phone_bg,.phone_bg_2{
+        background-size: 421px;
+    }
+    .phone_wrap{
+        padding-top: 120px;
+        height: 550px;
+    }
+}
+@media only screen and (max-width: 1084px) {
+    /* .phone_bg,.phone_bg_2{
+        background-size: 376px;
+    } */
+}
+
+@media only screen and (max-width: 1023px) {
+   .phone_wrap{
+      padding-top: 0px!important;
+   }
+}
+@media only screen and (max-width: 1001px) {
+    .feature_box{
+        width: 350px;
+    }
+    .pl_box{
+        width:90%!important;
+        margin: auto;
+       }
+}
+
+@media only screen and (max-width: 767px) {
+    .s_phones{
+        background-size: 501px;
+        background-position: center 40px;
+    }
+}
+@media only screen and (max-width:639px) {
+  .section_two{
+    margin-top: -122px;
+  }
+}
+@media only screen and (max-width:625px) {
+    .s_phones{
+        background-size: 401px;
+        background-position: center 40px;
+    }
+    .section_two{
+        margin-top: -203px;
+      }
+}    
+
+@media only screen and (max-width:500px) {
+    .s_phones{
+        background-size:contain;
+        background-position: center 40px;
+    }
+}
+@media only screen and (max-width:445px) {
+    .section_two{
+        margin-top: -243px;
+    }
+}
+@media only screen and (max-width:400px) {
+  .footer_wrap{
+    height: 950px!important;
+  }
+}
+@media only screen and (max-width:399px) {
+    .section_two{
+        margin-top: -270px;
+    }
+}
